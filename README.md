@@ -7,11 +7,7 @@ A Customer Relationship Management (CRM) application built using **HTML**, **CSS
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
 - [Setup Instructions](#setup-instructions)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -44,6 +40,6 @@ This project is a CRM application that helps manage customer records efficiently
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Estoda/Django-CRM
    cd CRM
    ```
