@@ -42,40 +42,7 @@ This project is a CRM application that helps manage customer records efficiently
 
 ## Project Structure
 
-CRM/
-├── CRM/ # Main Django project directory
-│ ├── **init**.py # Initializes the Django project as a Python package
-│ ├── asgi.py # ASGI configuration for asynchronous support
-│ ├── settings.py # Main project settings
-│ ├── urls.py # Main project URL routing
-│ ├── wsgi.py # WSGI configuration for deploying the project
-│ ├── templates/ # Global templates (optional)
-│ ├── base.html # Base template with shared layout
-├── website/ # Main app directory
-│ ├── migrations/ # Database migrations folder
-│ │ ├── **init**.py # Initializes the migrations as a package
-│ │ ├── 0001_initial.py # Auto-generated migration file
-│ ├── templates/ # Templates specific to the `website` app
-│ │ ├── add_record.html # Page for adding new customer records
-│ │ ├── base.html # Shared base template for the app
-│ │ ├── home.html # Home page
-│ │ ├── navbar.html # Navigation bar template
-│ │ ├── record.html # Page to view individual records
-│ │ ├── register.html # User registration page
-│ │ ├── update_record.html # Page to update existing records
-│ ├── **init**.py # Initializes the app as a Python package
-│ ├── admin.py # Admin site configuration for the app
-│ ├── apps.py # App configuration
-│ ├── forms.py # Forms for user input handling
-│ ├── models.py # Database models for the app
-│ ├── tests.py # Test cases for the app
-│ ├── urls.py # URL routing specific to the `website` app
-│ ├── views.py # Views that handle user requests and responses
-│ ├── mydb.py # Custom database handling logic (optional)
-├── manage.py # Django management script
-├── requirements.txt # Python dependencies for the project
-├── .gitignore # Files and directories to ignore in Git
-├── README.md # Project documentation
+CRM/ ├── CRM/ │ ├── init.py │ ├── asgi.py │ ├── settings.py │ ├── urls.py │ ├── wsgi.py ├── website/ │ ├── migrations/ │ │ ├── init.py │ │ ├── 0001_initial.py │ ├── templates/ │ │ ├── add_record.html │ │ ├── base.html │ │ ├── home.html │ │ ├── navbar.html │ │ ├── record.html │ │ ├── register.html │ │ ├── update_record.html │ ├── init.py │ ├── admin.py │ ├── apps.py │ ├── forms.py │ ├── models.py │ ├── tests.py │ ├── urls.py │ ├── views.py │ ├── manage.py │ ├── mydb.py
 
 ---
 
